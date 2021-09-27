@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'DMSansBold', sans-serif;
+  font-weight: 700;
+  src: url('fonts/DMSansBold.eot');
+  src: url('fonts/DMSansBold.eot') format('embedded-opentype'),
+    url('fonts/DMSansBold.woff2') format('woff2'),
+    url('fonts/DMSansBold.woff') format('woff'),
+    url('fonts/DMSansBold.ttf') format('truetype'),
+    url('fonts/DMSansBold.svg#DMSansBold') format('svg');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DMSansRegular', sans-serif;
+  font-weight: 400;
+  src: url('fonts/DMSansRegular.eot');
+  src: url('fonts/DMSansRegular.eot') format('embedded-opentype'),
+    url('fonts/DMSansRegular.woff2') format('woff2'),
+    url('fonts/DMSansRegular.woff') format('woff'),
+    url('fonts/DMSansRegular.ttf') format('truetype'),
+    url('fonts/DMSansRegular.svg#DMSansRegular') format('svg');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RubikMedium', sans-serif;
+  font-weight: 500;
+  src: url('fonts/RubikMedium.eot');
+  src: url('fonts/RubikMedium.eot') format('embedded-opentype'),
+    url('fonts/RubikMedium.woff2') format('woff2'),
+    url('fonts/RubikMedium.woff') format('woff'),
+    url('fonts/RubikMedium.ttf') format('truetype'),
+    url('fonts/RubikMedium.svg#RubikMedium') format('svg');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RubikRegular', sans-serif;
+  font-weight: 400;
+  src: url('fonts/RubikRegular.eot');
+  src: url('fonts/RubikRegular.eot') format('embedded-opentype'),
+    url('fonts/RubikRegular.woff2') format('woff2'),
+    url('fonts/RubikRegular.woff') format('woff'),
+    url('fonts/RubikRegular.ttf') format('truetype'),
+    url('fonts/RubikRegular.svg#RubikRegular') format('svg');
+  font-display: swap;
+}
+
+// @font-face {
+//   font-family: 'MyriadProRegular', sans-serif;
+//   font-weight: 400;
+//   src: url('fonts/MyriadProRegular.eot');
+//   src: url('fonts/MyriadProRegular.eot') format('embedded-opentype'),
+//     url('fonts/MyriadProRegular.woff2') format('woff2'),
+//     url('fonts/MyriadProRegular.woff') format('woff'),
+//     url('fonts/MyriadProRegular.ttf') format('truetype'),
+//     url('fonts/MyriadProRegular.svg#MyriadProRegular') format('svg');
+//   font-display: swap;
+// }
