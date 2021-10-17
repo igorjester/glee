@@ -341,20 +341,6 @@
 
   &__link {
     margin: 5px 25px 0 0;
-    display: block;
-    position: relative;
-  }
-
-  &__link::after {
-    content: '';
-    position: absolute;
-    border-radius: 50%;
-    background-color: rgb(163, 187, 200);
-    opacity: 0.341;
-    width: 21px;
-    height: 20px;
-    top: 34px;
-    right: 0;
   }
 
   &__inner {
@@ -372,11 +358,7 @@
     border-right: none;
   }
 
-  &__icon-addition{
-    margin-top: 15px;
-  }
-
-  &__column {
+   &__column {
     max-width: 220px;
   }
 
