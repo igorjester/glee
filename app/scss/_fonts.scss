@@ -46,14 +46,14 @@
   font-display: swap;
 }
 
-// @font-face {
-//   font-family: 'MyriadProRegular', sans-serif;
-//   font-weight: 400;
-//   src: url('fonts/MyriadProRegular.eot');
-//   src: url('fonts/MyriadProRegular.eot') format('embedded-opentype'),
-//     url('fonts/MyriadProRegular.woff2') format('woff2'),
-//     url('fonts/MyriadProRegular.woff') format('woff'),
-//     url('fonts/MyriadProRegular.ttf') format('truetype'),
-//     url('fonts/MyriadProRegular.svg#MyriadProRegular') format('svg');
-//   font-display: swap;
-// }
+@font-face {
+  font-family: 'MyriadProRegular', sans-serif;
+  font-weight: 400;
+  src: url('fonts/MyriadProRegular.eot');
+  src: url('fonts/MyriadProRegular.eot') format('embedded-opentype'),
+    url('fonts/MyriadProRegular.woff2') format('woff2'),
+    url('fonts/MyriadProRegular.woff') format('woff'),
+    url('fonts/MyriadProRegular.ttf') format('truetype'),
+    url('fonts/MyriadProRegular.svg#MyriadProRegular') format('svg');
+  font-display: swap;
+}

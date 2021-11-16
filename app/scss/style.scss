@@ -268,7 +268,7 @@
 
   &__link {
     background-color: #a3bbc8;
-    padding: 18px 107px 26px 27px;
+    padding: 25px 107px 25px 27px;
     color: #fff;
     position: relative;
     @extend %Rubik-500;
@@ -382,7 +382,7 @@
 .product {
   padding-top: 70px;
   text-align: center;
-  margin-bottom: 180px;
+
 
   &__title {
     @extend %DMSans-700;
@@ -395,7 +395,7 @@
   &__list {
     display: flex;
     justify-content: center;
-    margin-bottom: 75px;
+    // margin-bottom: 75px;
   }
 
   &__items {
@@ -419,6 +419,9 @@
 }
 
 .product-goods {
+  margin: 75px 0 180px;
+  text-align: center;
+
   &__inner {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -590,8 +593,167 @@
   }
 }
 
+.product-new-desing {
+  margin: 80px 0 120px;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px 30px;
+  }
+
+  &__item {
+    padding: 40px 0 0 32px;
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 246px;
+  }
+
+  &__title {
+    width: 175px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.2;
+    @extend %DMSans-700;
+    color: rgb(26, 26, 26);
+  }
+
+  &__link {
+    font-size: 16px;
+    line-height: 1.2;
+    @extend %DMSans-700;
+    color: rgb(163, 187, 200);
+  }
+
+}
+
+.video-fashion {
+  background-color: rgb(229, 229, 229);
+  margin-bottom: 120px;
+
+  &__inner {
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+.insights {
+  margin-bottom: 200px;
+  &__inner-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  &__title {
+    font-size: 36px;
+    line-height: 1.2;
+    @extend %DMSans-700;
+    color: rgb(26, 26, 26);
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  &__item {
+    width: 370px;
+    box-shadow: 0px 6px 47px 3px rgba(37, 37, 37, 0.05);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  &__content {
+    margin-left: 30px;
+  }
+
+  &__link{
+     background-color: rgb(163, 187, 200);
+     padding: 5px 30px;
+     border-radius: 50px;
+     font-size: 14px;
+     line-height: 1.42;
+     color: rgb(255, 255, 255);
+     @extend %DMSans-700;
+     text-transform: uppercase;
+     transform: translateY(-15px);
+     display: inline-block;
+  }
+
+  &__text {
+    width: 300px;
+    font-size: 18px;
+    line-height: 1.2;
+    @extend %DMSans-700;
+    color: rgb(38, 38, 38);
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 15px;
+    margin: 20px 0;
+  }
+
+  &__number{
+      font-size: 12px;
+     @extend %MyriadPro-400;
+      color: rgb(34, 41, 51);
+      line-height: 2.5;
+      text-transform: uppercase;
+      margin-bottom: 25px;
+  }
+
+}
+
+.partner {
+  min-height: 435px;
+  background-color: rgb(252, 215, 182);
+    &__inner {
+      display: flex;
+      justify-content: space-around;
+     align-items: flex-end;
+      
+    }
+}
 
 
+
+.Rectangle_1 {
+  // фон
+  background-color: rgb(224, 224, 224);
+
+}
+
+
+
+.View_All {
+  font-size: 16px;
+  font-family: "DMSans";
+  color: rgb(38, 38, 38);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 1458.937px;
+  top: 4279.9px;
+  z-index: 66;
+}
+
+.Rectangle_1 {
+  // #e0e0e0
+  background-color: rgb(224, 224, 224);
+  position: absolute;
+  left: 803px;
+  top: 4709px;
+  width: 315px;
+  height: 1px;
+  z-index: 51;
+}
 
 
 

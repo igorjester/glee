@@ -25,7 +25,14 @@ $ft: #7b7b7b;
   font-weight: 400;
 }
 
-// %MyriadPro-400 {
-//   font-family: 'MyriadProRegular', sans-serif;
-//   font-weight: 400;
-// }
+%MyriadPro-400 {
+  font-family: 'MyriadProRegular', sans-serif;
+  font-weight: 400;
+}
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
