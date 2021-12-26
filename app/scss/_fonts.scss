@@ -57,3 +57,24 @@
     url('fonts/MyriadProRegular.svg#MyriadProRegular') format('svg');
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('Rubik-Bold.woff2') format('woff2'),
+    url('Rubik-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('Rubik-Black.woff2') format('woff2'),
+    url('Rubik-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+

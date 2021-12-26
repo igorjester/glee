@@ -30,6 +30,13 @@ $ft: #7b7b7b;
   font-weight: 400;
 }
 
+
+%Rubik-bold{
+  font-family: 'Rubik',
+  sans-serif;
+   font-weight: 900;
+}
+
 @function max($numbers...) {
   @return m#{a}x(#{$numbers});
 }
