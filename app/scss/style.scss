@@ -90,6 +90,11 @@
   }
 }
 
+.user-nav--color,
+.top--color {
+  background-color: $btn;
+}
+
 .footer-top {
   display: flex;
   justify-content: space-between;
@@ -773,10 +778,15 @@
   }
 }
 
-.partner {
-  &__inner--abaut {
-    padding: 90px 0 90px;
-  }
+// .partner {
+//   &__inner--abaut {
+//     padding: 90px 0 90px;
+//   }
+// }
+
+.partner--color,
+.form--color {
+  background-color: $nav;
 }
 
 .experience {
@@ -1074,7 +1084,7 @@
     color: rgb(255, 254, 254);
   }
 
-  &__lost{
+  &__lost {
     padding-left: 45%;
   }
 
@@ -1097,37 +1107,56 @@
   }
 }
 
-
-// Types of Personal Information We Collect  info
-
-// Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+.info {
+  padding: 120px 0;
 
 
-// Consectetur adipisicing elit,
-// sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-// quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+  &__title {
+    margin-bottom: 30px;
+    font-size: 24px;
+    @extend %DMSans-700;
+    color: rgb(36, 63, 77);
+    line-height: 1;
+  }
 
-// Consectetur adipisicing elit,
-// sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  &__list {
+    margin-left: 35px;
+    margin-bottom: 50px;
+  }
 
-// Dagna aliqua. Ut enim ad minim veniam,
-// quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  &__items {
+    list-style-type: decimal-leading-zero;
+    font-size: 15px;
+    @extend %Rubik-400;
+    color: rgb(36, 63, 77);
+    line-height: 1.875;
+  }
 
-// Lorem ipsum dolor sit amet,
-// consectetur adipisicing elit,
-// sed do eiusmod
+  &__text {
+    font-size: 15px;
+    @extend %Rubik-400;
+    color: rgb(36, 63, 77);
+    margin-bottom: 30px;
+  }
 
-// How marketpmss.com Collects Personal Infonnation
-
-// consectetur adipisicing elit,
-// sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-// quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-
-// How marketprosscom Uses Personal Information
+}
 
 
-// consectetur adipisicing elit,
-// sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-// quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+
+
+
+.Consectetur_adipisicing_elit__sed_do_eiusmod_te {
+
+  line-height: 1.875;
+  text-align: left;
+  position: absolute;
+  left: 414.937px;
+  top: 473.546px;
+  width: 1154px;
+  height: 45px;
+  z-index: 70;
+}
+
+
 
 @import 'media';
