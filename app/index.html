@@ -55,26 +55,27 @@
 
         <div class="user-nav">
 
-          <div class="user-nav user-nav__search">
-            <a class="user-nav__link" href="#">
-              <img class="user-nav__img" src="images/icons/loupe.png" alt="icons-loupe">
-            </a>
-          </div>
+          <a class="user-nav__link user-nav__search" href="#">
+            <img class="user-nav__img" src="images/icons/loupe.png" alt="icons-loupe">
+          </a>
+
 
           <div class="user-nav user-nav__cart">
             <a class="user-nav__link" href="#">
               <img class="user-nav__img" src="images/icons/heart.png" alt="icons-heart">
+              <span class="user-nav__fav user-nav__fav-lav">0</span>
             </a>
             <a class="user-nav__link" href="#">
               <img class="user-nav__img" src="images/icons/basket.png" alt="icons-basket">
+              <span class="user-nav__fav user-nav__fav-bac">0</span>
             </a>
           </div>
 
-          <div class="user-nav user-nav__tip">
-            <a class="user-nav__link" href="#">
-              <img class="user-nav__img" src="images/icons/points.png" alt="icons-points">
-            </a>
-          </div>
+
+          <a class="user-nav__link user-nav__tip extra" href="#">
+            <img class="user-nav__img" src="images/icons/points.png" alt="icons-points">
+          </a>
+
         </div>
 
       </div>
@@ -250,40 +251,20 @@
         <h3 class="product__title">
           Products of the week
         </h3>
-        <ul class="product__list">
-          <li class="product__items">
-            <a class="product__link product__link--active" href="">
-              All
-            </a>
-          </li>
-          <li class="product__items">
-            <a class="product__link" href="">
-              Furnitures
-            </a>
-          </li>
-          <li class="product__items">
-            <a class="product__link" href="">
-              Chairs
-            </a>
-          </li>
-          <li class="product__items">
-            <a class="product__link" href="">
-              Lighting
-            </a>
-          </li>
-          <li class="product__items">
-            <a class="product__link" href="">
-              Decor
-            </a>
-          </li>
-        </ul>
+        <div class="product__menu-buts">
+          <button class="product__btn" data-filter="all">All</button>
+          <button class="product__btn" data-filter=".category-a">Furnitures</button>
+          <button class="product__btn" data-filter=".category-b">Chairs</button>
+          <button class="product__btn" data-filter=".category-c">Lighting</button>
+          <button class="product__btn" data-filter=".category-d">Decor</button>
+        </div>
       </div>
     </div>
 
     <section class="product-goods">
       <div class="container">
         <div class="product-goods__inner">
-          <div class="product-goods__box">
+          <div class="product-goods__box mix category-a">
             <img class="product-goods__img" src="images/product/1.png" alt="мебель">
 
             <div class="product-goods__box-wrap">
@@ -325,7 +306,7 @@
             </div>
           </div>
 
-          <div class="product-goods__box">
+          <div class="product-goods__box mix category-c">
             <img class="product-goods__img" src="images/product/2.png" alt="мебель">
 
             <div class="product-goods__box-wrap">
@@ -367,7 +348,7 @@
             </div>
           </div>
 
-          <div class="product-goods__box">
+          <div class="product-goods__box mix category-b">
             <img class="product-goods__img" src="images/product/3.png" alt="мебель">
 
             <div class="product-goods__box-wrap">
@@ -409,7 +390,7 @@
             </div>
           </div>
 
-          <div class="product-goods__box">
+          <div class="product-goods__box mix category-c">
             <img class="product-goods__img" src="images/product/4.png" alt="мебель">
 
             <div class="product-goods__box-wrap">
@@ -451,7 +432,7 @@
             </div>
           </div>
 
-          <div class="product-goods__box">
+          <div class="product-goods__box mix category-a">
             <img class="product-goods__img" src="images/product/5.png" alt="мебель">
             <div class="product-goods__box-wrap">
               <div class="product-goods__box-inner">
@@ -492,7 +473,7 @@
             </div>
           </div>
 
-          <div class="product-goods__box">
+          <div class="product-goods__box mix category-d">
             <img class="product-goods__img" src="images/product/6.png" alt="мебель">
 
             <div class="product-goods__box-wrap">
@@ -534,7 +515,7 @@
             </div>
           </div>
 
-          <div class="product-goods__box">
+          <div class="product-goods__box mix category-b">
             <img class="product-goods__img" src="images/product/7.png" alt="мебель">
 
             <div class="product-goods__box-wrap">
@@ -828,31 +809,31 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <div class="partner">
+      <div class="container">
+        <div class="partner__inner">
+          <a class="partner__link" href="#">
+            <img class="partner__img" src="images/partner/logo_partner-2.png" alt="partner">
+          </a>
+          <a class="partner__link" href="#">
+            <img class="partner__img" src="images/partner/KMN CONSULTING.png" alt="partner">
+          </a>
+          <a class="partner__link" href="#">
+            <img class="partner__img" src="images/partner/Form 19.png" alt="partner">
+          </a>
+          <a class="partner__link" href="#">
+            <img class="partner__img" src="images/partner/nextg3n.png" alt="partner">
+          </a>
+          <a class="partner__link" href="#">
+            <img class="partner__img" src="images/partner/vintage.png" alt="partner">
+          </a>
         </div>
-        </section>
-<div class="partner">
-  <div class="container">
-    <div class="partner__inner">
-      <a class="partner__link" href="#">
-        <img class="partner__img" src="images/partner/logo_partner-2.png" alt="partner" >
-      </a>
-      <a class="partner__link" href="#">
-        <img class="partner__img" src="images/partner/KMN CONSULTING.png" alt="partner">
-      </a>
-      <a class="partner__link" href="#">
-        <img class="partner__img" src="images/partner/Form 19.png" alt="partner">
-      </a>
-      <a class="partner__link" href="#">
-        <img class="partner__img" src="images/partner/nextg3n.png" alt="partner">
-      </a>
-      <a class="partner__link" href="#">
-        <img class="partner__img" src="images/partner/vintage.png" alt="partner">
-      </a>
+      </div>
     </div>
-  </div>
-</div>
-  
- 
+
+
 
   </main>
 
